@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html inputs</title>
+</head>
+<body>
+    <h2>Job Application Form</h2>
+
+    <form action="#">
+        <label for="fullname">Full Name :</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Full name ">   
+        <br><br>
+
+        <lable for="email">Email Address :</lable>
+        <input type="Email" id="email" name="email" placeholder=" Enter Email">
+
+        <br><br>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" minlength="8" maxlength="15">
+
+        <br><br>
+        
+        <label for="phone">Phone :</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter phone number " maxlength="10" minlength="10">
+
+        <br><br>
+        
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age" placeholder="Enter age " min="18" max="60">
+
+        <br><br>
+        
+        
+        <label for="image">Profile Iamge  :</label>
+        <input type="file" id="image" name="image" placeholder="Upload iamge" accept=".png,.jpeg" multiple>
+
+        <br><br>
+
+        <label for="gender">Gender  :</label>
+        <input type="radio" id="Male" name="gender" value="Male" ><lable for="Male">Male</lable>
+        <input type="radio" id="Female" name="gender" value="Female" ><lable for="Female">Female</lable>
+        <input type="radio" id="Others" name="gender" value="Others"><lable for="Others"> Others</lable>
+    
+        <br><br>
+
+        <label for="country">Country :</label>
+        <select name="country" id="country">
+            <option value="">Select</option>
+            <option value="IN">India</option>
+            <option value="US">United States</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" name="terms" id="terms">
+        <lable for="terms"> I agree to the terms and conditions</lable>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
