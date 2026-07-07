@@ -1,0 +1,23 @@
+.parent{
+    width:800px;
+    background-color:crimson;
+}
+
+.first{
+    background-color: green;
+    width:50%;
+    padding: 10px;
+    border:5px solid blueviolet;
+    box-sizing: border-box;
+}
+.second{
+    width:100px;
+    height:100px;
+    background-color: beige;
+    padding: 150px;
+    border:5px solid black;
+    border-radius: 50%;
+    margin:10px;
+
+}
+
