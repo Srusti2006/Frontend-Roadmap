@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 5px;
+}
+body{
+    font-size: 3em;
+}
+
+div{
+    background-color: violet;
+    width: 50vw;
+    height:10vh;
+    padding: 5vw;
+    margin: 10vh;
+    border: 5px solid darkseagreen;
+    font-size: 2em;
+}
+p{
+    background-color : chartreuse;
+    width: 50%;
+    height: 70%;
+    /* em and rem */
+    font-size: 3em;
+    padding: 0.5em;
+    margin:rem;
+
+}
+
