@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 16px;
+    padding: 24px;
+    font-size: 24px;
+    color: white;
+    border-radius:10px ;
+    margin-bottom: -100px;
+    position: relative;
+}
+#red-box{
+    background-color: red;
+    z-index: 3;
+    /*zindex works only when position is relative  */
+}
+#green-box{
+    background-color: green;
+    z-index:2;
+    
+}
+#blue-box{
+    background-color: blue;
+}

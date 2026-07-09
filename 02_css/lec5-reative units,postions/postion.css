@@ -3,5 +3,14 @@
     top:10px;
     right:10px;
     inset:20px;
-    /* position: unset; */
+    position: inherit;
+    position: unset;
+}
+.js{
+    position: fixed;
+    top:10px;
+    right:10px;
+    inset:20px;
+    position: inherit;
+    background-color:aquamarine ;
 }
